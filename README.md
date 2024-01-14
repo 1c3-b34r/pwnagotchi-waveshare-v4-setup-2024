@@ -45,7 +45,8 @@ Subnet Mask: 255.255.255.0
 Router: 10.0.0.1
 4. System Preferences > General > Sharing > Internet Sharing: Toggle OFF
 5. HERE'S THE TRICK: System Preferences > Network > Hit the "... V" looking button and choose "Set Service Order". Make sure Wi-Fi is above RNDIS/Ethernet Gadget
-6. Run sudo ./macOS_connection_share.sh en0 en7
+6. run ifconfig to see what en number pi is running on 
+7. Run sudo ./macOS_connection_share.sh en0 en<insert en number>
 
 macos_connection_share.sh file:
 
